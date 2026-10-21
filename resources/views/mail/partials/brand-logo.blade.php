@@ -1,0 +1,2 @@
+{{-- T27: logo oficial a color para fondo claro (references/brand/logo-01). Lo sirve el frontend público (`frontend/public/brand`): PNG porque varios clientes de correo no muestran WebP, medidas fijas y `alt` para cuando bloquean imágenes. --}}
+<img src="{{ config('contactur.frontend_url') }}/brand/contactur-logo-email.png" width="120" height="48" alt="{{ config('app.name') }}" style="display:block;width:120px;height:48px;border:0;outline:none;text-decoration:none;">
