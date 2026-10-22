@@ -13,6 +13,8 @@ RUN install-php-extensions \
     gd \
     exif
 
+RUN setcap -r /usr/local/bin/frankenphp
+
 # Instalar Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
