@@ -6,7 +6,7 @@
     "keywords": ["contactur", "laravel", "api"],
     "license": "proprietary",
     "require": {
-        "php": "8.5.10",
+        "php": "^8.5.10",
         "laravel/framework": "13.33.0",
         "laravel/reverb": "1.12.0",
         "laravel/tinker": "^3.0",
