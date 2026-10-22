@@ -2,6 +2,7 @@
 {
     frankenphp
     auto_https off
+    admin off
 }
 
 :{$PORT:10000} {
